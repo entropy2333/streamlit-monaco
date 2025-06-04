@@ -10,6 +10,7 @@ def st_monaco(
     lineNumbers=True,
     minimap=False,
     theme="streamlit",
+    key=None,
 ):
     return render_component(
         value=value,
@@ -18,4 +19,5 @@ def st_monaco(
         lineNumbers=lineNumbers,
         minimap=minimap,
         theme=theme,
+        key=key,
     )
